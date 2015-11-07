@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.jme3:eventbus:3.0.0.20140325-SNAPSHOT:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.jme3/eventbus/jars/eventbus-3.0.0.20140325-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
