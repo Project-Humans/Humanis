@@ -9,7 +9,7 @@
 [debug] == resolving dependencies for default#humanis$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77e4d179
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a03a60b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -45,7 +45,7 @@
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->master]
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4369e977
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a6e1623
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
 [debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
@@ -53,7 +53,7 @@
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a552ff6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@780d65c8
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -62,7 +62,7 @@
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ff892af
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f96717d
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies default#humanis$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -228,7 +228,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
-[debug] :: resolution report :: resolve 127ms :: artifacts dl 21ms
+[debug] :: resolution report :: resolve 131ms :: artifacts dl 26ms
 [debug] 	report for default#humanis$sources_javadoc_2.11;1.0 compile produced in D:\Other\Monkey Projects\Humanis\target\resolution-cache\reports\default-humanis$sources_javadoc_2.11-compile.xml
 [debug] 	report for default#humanis$sources_javadoc_2.11;1.0 runtime produced in D:\Other\Monkey Projects\Humanis\target\resolution-cache\reports\default-humanis$sources_javadoc_2.11-runtime.xml
 [debug] 	report for default#humanis$sources_javadoc_2.11;1.0 test produced in D:\Other\Monkey Projects\Humanis\target\resolution-cache\reports\default-humanis$sources_javadoc_2.11-test.xml
@@ -242,4 +242,4 @@
 [debug] 	report for default#humanis$sources_javadoc_2.11;1.0 docs produced in D:\Other\Monkey Projects\Humanis\target\resolution-cache\reports\default-humanis$sources_javadoc_2.11-docs.xml
 [debug] 	report for default#humanis$sources_javadoc_2.11;1.0 pom produced in D:\Other\Monkey Projects\Humanis\target\resolution-cache\reports\default-humanis$sources_javadoc_2.11-pom.xml
 [debug] 	report for default#humanis$sources_javadoc_2.11;1.0 scala-tool produced in D:\Other\Monkey Projects\Humanis\target\resolution-cache\reports\default-humanis$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (127ms resolve - 21ms download)
+[debug] 	resolve done (131ms resolve - 26ms download)
