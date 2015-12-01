@@ -4,7 +4,7 @@
 		module="humanis$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151119181141"
+		publication="20151201182735"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
