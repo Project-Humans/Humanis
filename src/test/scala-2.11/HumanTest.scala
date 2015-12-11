@@ -1,9 +1,10 @@
+import HumanClasses.{Male, Human, Female}
 import org.scalatest.FlatSpec
 
 class HumanTest extends FlatSpec{
     val human: Human = new Human("Bob", Male)
 
-    "Human" should "have 0 happiness" in {
+    "HumanClasses.Human" should "have 0 happiness" in {
         assert(human.happiness == 0)
     }
 
