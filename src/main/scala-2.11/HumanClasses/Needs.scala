@@ -1,3 +1,5 @@
+package HumanClasses
+
 class Layer(name : String*) {
     val needs = name.map(x => x -> 0)(collection.breakOut): Map[String, Int]
     def overall : Int = needs.foldLeft(0)(_+_._2) / needs.size

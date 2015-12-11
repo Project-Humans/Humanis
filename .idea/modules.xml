@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Humanis.iml" filepath="$PROJECT_DIR$/.idea/modules/Humanis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Humanis-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Humanis-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/humanis.iml" filepath="$PROJECT_DIR$/.idea/modules/humanis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/humanis-build.iml" filepath="$PROJECT_DIR$/.idea/modules/humanis-build.iml" />
     </modules>
   </component>
 </project>

@@ -1,3 +1,5 @@
+import HumanClasses.Needs
+
 //import scala.collection.mutable
 
 /*Intentionally left Map immutable for sake of functional programming
