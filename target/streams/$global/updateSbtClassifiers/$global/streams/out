@@ -647,13 +647,42 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-sbt#interface;0.13.8 [compile->default(compile)]
+[debug] == resolving dependencies default#humanis$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->default(compile)]
+[info] Resolving com.github.mpeltonen#sbt-idea;1.6.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0
+[debug] 	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain
+[debug] 	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0
+[debug] == resolving dependencies default#humanis$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->runtime]
+[debug] == resolving dependencies default#humanis$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)]
+[info] Resolving commons-io#commons-io;2.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.0.1
+[debug] 	found commons-io#commons-io;2.0.1 in sbt-chain
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(compile)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->default(compile)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->runtime]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile]
+[debug] == resolving dependencies default#humanis$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->master]
+[debug] == resolving dependencies default#humanis$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->default(compile)]
+[debug] == resolving dependencies default#humanis$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->runtime]
+[debug] == resolving dependencies default#humanis$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->compile]
+[debug] == resolving dependencies default#humanis$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
+[debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-bin.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!compiler-interface-bin.jar
@@ -703,9 +732,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 1027ms :: artifacts dl 25ms
-[debug] 	report for default#humanis$sbt_2.11;1.0 default produced in D:\Repository\Humanis\target\resolution-cache\reports\default-humanis$sbt_2.11-default.xml
-[debug] 	resolve done (1027ms resolve - 25ms download)
+[debug] :: resolution report :: resolve 613ms :: artifacts dl 37ms
+[debug] 	report for default#humanis$sbt_2.11;1.0 default produced in D:\Projects\Humanis\target\resolution-cache\reports\default-humanis$sbt_2.11-default.xml
+[debug] 	resolve done (613ms resolve - 37ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#humanis$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1015,6 +1044,23 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.8
 [debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.8 in sbt-chain
+[debug] == resolving dependencies default#humanis$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->default(compile)]
+[info] Resolving com.github.mpeltonen#sbt-idea;1.6.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0
+[debug] 	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain
+[debug] 	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0
+[debug] == resolving dependencies default#humanis$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->runtime]
+[debug] == resolving dependencies default#humanis$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->compile]
+[debug] == resolving dependencies default#humanis$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->master]
+[debug] == resolving dependencies default#humanis$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->default(compile)]
+[info] Resolving commons-io#commons-io;2.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.0.1
+[debug] 	found commons-io#commons-io;2.0.1 in sbt-chain
+[debug] == resolving dependencies default#humanis$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->runtime]
+[debug] == resolving dependencies default#humanis$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->compile]
+[debug] == resolving dependencies default#humanis$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar(src)
@@ -1069,6 +1115,8 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 101ms :: artifacts dl 44ms
-[debug] 	report for default#humanis$sources_2.11;1.0 default produced in D:\Repository\Humanis\target\resolution-cache\reports\default-humanis$sources_2.11-default.xml
-[debug] 	resolve done (101ms resolve - 44ms download)
+[debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
+[debug] :: resolution report :: resolve 137ms :: artifacts dl 36ms
+[debug] 	report for default#humanis$sources_2.11;1.0 default produced in D:\Projects\Humanis\target\resolution-cache\reports\default-humanis$sources_2.11-default.xml
+[debug] 	resolve done (137ms resolve - 36ms download)

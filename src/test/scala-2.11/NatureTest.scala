@@ -5,7 +5,7 @@ import org.scalatest.FlatSpec
  * Created by Dmitrij on 11.12.2015.
  */
 class NatureTest extends FlatSpec {
-  val nature = Nature;
+  val nature = Nature
   "Nature.currentSeason" should "be Spring in basic state" in {
     assert(nature.currentSeason == Spring)
   }

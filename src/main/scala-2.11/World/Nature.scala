@@ -9,42 +9,42 @@ case object Spring extends Season
 case object Summer extends Season
 case object Fall extends Season
 
-sealed trait WeatherConditions
-case object Rain extends WeatherConditions
-case object Sunny extends WeatherConditions
-case object Cloudy extends WeatherConditions
-case object Snowy extends WeatherConditions
-case object Thunder extends WeatherConditions
-case object Drought extends WeatherConditions
-case object Hail extends WeatherConditions
-case object Blizzard extends WeatherConditions
-case object Fog extends WeatherConditions
+sealed trait WeatherCondition
+case object Rain extends WeatherCondition
+case object Sunny extends WeatherCondition
+case object Cloudy extends WeatherCondition
+case object Snowy extends WeatherCondition
+case object Thunder extends WeatherCondition
+case object Drought extends WeatherCondition
+case object Hail extends WeatherCondition
+case object Blizzard extends WeatherCondition
+case object Fog extends WeatherCondition
 
 
 
- class Weather(var temperature : Int, var currentWeatherConditions : WeatherConditions){
+ class Weather(var temperature : Int, var weatherCondition : WeatherCondition){
 
 }
 
 object Nature {
-  var dayTime : Int = 0;
-  var day : Int = 0;
-  var currentSeason : Season = Spring;
-  var currentWeather = new Weather(0, Sunny);
+  var dayTime : Int = 0
+  var day : Int = 0
+  var currentSeason : Season = Spring
+  var currentWeather = new Weather(0, Sunny)
 
-  def currentWeatherCondition : WeatherConditions = {currentWeather.currentWeatherConditions};
+  def currentWeatherCondition : WeatherCondition = {currentWeather.weatherCondition};
 
   def currentTemperature : Int = {currentWeather.temperature}
 
   def dayPass : Unit = {
-    day += 1;
+    day += 1
   }
 
   def minutePass(timeSpeed : Int) : Unit = {
     if (dayTime < 1440){
-        dayPass;
-        dayTime = 0;
+        dayPass
+        dayTime = 0
     }
-    else dayTime+=1;
+    else dayTime+=1
   }
 }
