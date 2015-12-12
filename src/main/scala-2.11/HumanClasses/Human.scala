@@ -1,10 +1,4 @@
-import HumanClasses.Needs
-
-//import scala.collection.mutable
-
-/*Intentionally left Map immutable for sake of functional programming
-  in case of dire need can be changed to mutable.Map
- */
+package HumanClasses
 
 sealed trait Gender
 case object Male extends Gender
