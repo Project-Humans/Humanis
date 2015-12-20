@@ -4,7 +4,7 @@
 		module="humanis_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151212112530"
+		publication="20151216220810"
 	>
 		<description>
 		Humanis
@@ -46,6 +46,7 @@
 		<dependency org="com.jme3" name="jME3-networking" rev="3.0.0.20140325-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.jme3" name="jME3-plugins" rev="3.0.0.20140325-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.jme3" name="jME3-terrain" rev="3.0.0.20140325-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="com.jme3" name="jME3-testdata" rev="3.0.0.20140325-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.jme3" name="jME3-jogg" rev="3.0.0.20140325-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.jme3" name="j-ogg-oggd" rev="3.0.0.20140325-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.jme3" name="j-ogg-vorbisd" rev="3.0.0.20140325-SNAPSHOT" conf="compile->default(compile)"/>

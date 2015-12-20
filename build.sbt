@@ -38,6 +38,8 @@ libraryDependencies += "com.jme3" % "jME3-plugins" % jmeVersion
 
 libraryDependencies += "com.jme3" % "jME3-terrain" % jmeVersion
 
+libraryDependencies += "com.jme3" % "jME3-testdata" % jmeVersion
+
 libraryDependencies += "com.jme3" % "jME3-jogg" % jmeVersion
 
 libraryDependencies += "com.jme3" % "j-ogg-oggd" % jmeVersion

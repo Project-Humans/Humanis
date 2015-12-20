@@ -732,9 +732,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 613ms :: artifacts dl 37ms
+[debug] :: resolution report :: resolve 1110ms :: artifacts dl 368ms
 [debug] 	report for default#humanis$sbt_2.11;1.0 default produced in D:\Projects\Humanis\target\resolution-cache\reports\default-humanis$sbt_2.11-default.xml
-[debug] 	resolve done (613ms resolve - 37ms download)
+[debug] 	resolve done (1110ms resolve - 368ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#humanis$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1117,6 +1117,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
-[debug] :: resolution report :: resolve 137ms :: artifacts dl 36ms
+[debug] :: resolution report :: resolve 170ms :: artifacts dl 39ms
 [debug] 	report for default#humanis$sources_2.11;1.0 default produced in D:\Projects\Humanis\target\resolution-cache\reports\default-humanis$sources_2.11-default.xml
-[debug] 	resolve done (137ms resolve - 36ms download)
+[debug] 	resolve done (170ms resolve - 39ms download)
